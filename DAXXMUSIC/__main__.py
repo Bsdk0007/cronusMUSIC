@@ -43,19 +43,19 @@ async def init():
         await DAXX.stream_call("https://telegra.ph//file/211e3ebecb6b91e1ef66d.mp4")
     except NoActiveGroupCall:
         LOGGER("SHADOW").error(
-            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n神 𝗞ɪʀᴀ 𝗦𝗧𝗢𝗣........"
+            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n˹ʀ𝐀ᴅʜᴇ ✗ ᴍᴜ𝘀ɪᴄ˼ 🎙 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await DAXX.decorators()
     LOGGER("SANATNI").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗛𝗔𝗥𝗦𝗛𝗔☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗥𝗔𝗗𝗛𝗘☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("KIRA").info("𝗦𝗧𝗢𝗣 神 𝗞ɪʀᴀ🎻 𝗕𝗢𝗧..")
+    LOGGER("KIRA").info("𝗦𝗧𝗢𝗣 ˹ʀ𝐀ᴅʜᴇ ✗ ᴍᴜ𝘀ɪᴄ˼ 🎙 𝗕𝗢𝗧..")
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(init())
