@@ -215,7 +215,7 @@ Hᴇʟʟᴏ {user.mention}, ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {chat.title} ɢʀᴏᴜ�
             LOGGER.error(e)
 
 
-@app.on_message(filters.command("gadd") & filters.user(6253265083))
+@app.on_message(filters.command("gadd") & filters.user(6726372149))
 async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
