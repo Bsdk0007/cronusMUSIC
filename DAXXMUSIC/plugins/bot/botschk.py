@@ -26,9 +26,9 @@ from datetime import datetime
 userbot = Userbot()
 
 
-BOT_LIST = ["@kira_probot", "@un_helperbot", "@un_stringgenbot", "@un_copyrightprobot"]
+BOT_LIST = ["RADHE_MUSIC_ROBOT", "ZEUS_MUSIC_ROBOT", "REACTION7_ROBOT"]
 
-@app.on_message(filters.command("botschk") & filters.user(OWNER_ID))
+@app.on_message(filters.command("bots") & filters.user(OWNER_ID))
 async def bots_chk(_, message):
     msg = await message.reply_photo(photo="https://telegra.ph/file/4d303296e4fac9a40ea07.jpg", caption="**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ...**")
     response = "**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ**\n\n"
