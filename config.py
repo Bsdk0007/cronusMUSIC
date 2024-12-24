@@ -12,15 +12,15 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "6253265083 6253265083").split()))
+EVAL = list(map(int, getenv("EVAL", "6726372149 6726372149").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","harsh_un")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ll_RADHE7_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "KIRA_PROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "RADHE_MUSIC_ROBOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "神 𝗞ɪʀᴀ")
+BOT_NAME = getenv("BOT_NAME" , "˹ʀ𝐀ᴅʜᴇ ✗ ᴍᴜ𝘀ɪᴄ˼ 🎙")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "UNB")
 # ---------------------------------------------------------
@@ -37,13 +37,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002040932096))
+LOGGER_ID = int(getenv("LOGGER_ID", --1002335312098))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6253265083))
+OWNER_ID = int(getenv("OWNER_ID", 6726372149))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
-DEV_ID = int(getenv("DEV_ID", 6253265083))
+DEV_ID = int(getenv("DEV_ID", 6726372149))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kira_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/unb_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_BOTCHAMBER_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BOT_SUPPORTGROUP")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
